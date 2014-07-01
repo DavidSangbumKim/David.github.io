@@ -1,0 +1,200 @@
+/**
+ * Theme Name: Customizr alpha
+ * Theme URI: http://www.themesandco.com/customizr
+ * Description:  Enjoy designing a beautiful website live with the WP customizer : select skin, logo, social profiles, sliders, layout, home featured blocks, or even live css styling. The flat and fully responsive design can be used for small businesses, portfolios, blogs, corporate sites or landing pages. Built with valid HTML5 and CSS3 (from the Twitter Bootstrap), cross-browser tested, the theme is translation ready and available in 15 languages. Ready for WooCommerce, bbPress, qTranslate, the code is easily extensible with a comprehensive API of hooks.
+ * Version: 3.1.6
+ * Author: nikeo
+ * Author URI: http://www.themesandco.com/
+ * Tags: gray, white, light, blue, red, yellow, green, purple, orange, black, one-column, two-columns, three-columns, left-sidebar, right-sidebar, fluid-layout, responsive-layout, custom-menu, featured-images, full-width-template, theme-options, threaded-comments, translation-ready, sticky-post, post-formats, rtl-language-support, editor-style
+ * Text Domain: customizr
+ * Copyright: (c) 2013 Nicolas GUILLAUME (nikeo), Nice, France
+ * License: GNU General Public License v2.0 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+
+/**
+ * The styleheets of Customizr are located in inc/css. Each skin has its own stylesheet : blue.css, green.css, ...
+ *
+ * IMPORTANT : If you write your CSS code below, it will be deleted when you'll update the theme.
+ * If you want to style the css of Customizr, you can either use the Custom CSS section in the customizer (which will not be lost on update) OR create a child theme (recommended if you do many customizations) and add your css code in the style.css file of it.
+ template: customizr
+ */
+
+/* Remove Navbar box           */
+.navbar .navbar-inner {
+-webkit-box-shadow: none;
+-moz-box-shadow:    none;
+box-shadow:         none;
+background:         none;
+-webkit-box-shadow: none;
+-moz-box-shadow:    none;
+box-shadow:         none;
+}
+
+#main-wrapper {
+margin-top: 20px;
+margin-bottom: 100px;
+}
+
+.carousel-control {
+font-size: 35px;
+}
+
+.carousel {
+margin-bottom: 30px;
+}
+
+ /*  fade   */
+.carousel .item {-webkit-transition: opacity 3s; -moz-transition: opacity 3s; -ms-transition: opacity 3s; -o-transition: opacity 3s; transition: opacity 3s;}
+.carousel .active.left {left:0;opacity:0;z-index:2;}
+.carousel .next {left:0;opacity:1;z-index:1;}
+
+
+/*  Featured Pages Zoom Effect to Square   
+ .round-div {
+  border: 104px solid #FAFAFA;
+  border-radius: 0px;
+  display: block;
+  height: 170px;
+  left: -54px;
+  position: absolute;
+  top: -66px;
+  transition: all 0.3s ease 0s;
+  width: 170px;
+  z-index: 99;
+}  */
+
+.navbar-wrapper .navbar h2 {
+color: #BDBDBD;
+}
+
+h2.site-description {
+color: #BDBDBD;
+}
+
+/*
+.tc-header {
+ background-image:url('http://alpha-institutes.com/awp/wp-content/themes/customizr_alpha/inc/img/top_line.gif');
+ background-repeat:repeat-x;
+ background-position:center bottom; 
+}*/
+
+.tc-header {
+background: #f9f9f9;
+border-bottom: 3px solid #f3f3f3;
+}
+
+
+.featurette-divider {
+margin: 50px 0;
+}
+
+.mypadd-01
+{
+padding-left:15px;
+padding-right:15px;
+}
+
+.mypadd-02
+{
+padding-top:25px;
+padding-bottom:25px;
+padding-right:50px;
+padding-left:50px;
+}
+
+.mypadd-03
+{
+padding-top:25px;
+padding-bottom:25px;
+padding-right:50px;
+padding-left:50px;
+}
+
+
+/* Remove the Tagline on Mobile  */
+@media (max-width: 978px) {
+    h2.site-description {
+        display:    none;
+    }
+}
+
+
+.page-id-29 {
+ background-image:url('http://alpha-institutes.com/awp/wp-content/themes/customizr_alpha/inc/img/abg002.jpg');
+ background-repeat:no-repeat;
+ background-position:center top;
+}
+
+/*.page-id-27 {
+ background-image:url('http://alpha-institutes.com/awp/wp-content/themes/customizr_alpha/inc/img/abg002.jpg');
+ background-repeat:no-repeat;
+ background-position:center top;
+}*/
+
+.page-id-58 {
+ background-image:url('http://alpha-institutes.com/awp/wp-content/themes/customizr_alpha/inc/img/abg002.jpg');
+ background-repeat:no-repeat;
+ background-position:center top; 
+}
+
+.page-id-27 {
+ background-image:url('http://alpha-institutes.com/awp/wp-content/themes/customizr_alpha/inc/img/abg002.jpg');
+ background-repeat:no-repeat;
+ background-position:center top;
+}
+
+.page-id-31 {
+ background-image:url('http://alpha-institutes.com/awp/wp-content/themes/customizr_alpha/inc/img/abg002.jpg');
+ background-repeat:no-repeat;
+ background-position:center top;
+}
+
+.page-id-33 {
+ background-image:url('http://alpha-institutes.com/awp/wp-content/themes/customizr_alpha/inc/img/abg002.jpg');
+ background-repeat:no-repeat;
+ background-position:center top;
+}
+
+.page-id-35 {
+ background-image:url('http://alpha-institutes.com/awp/wp-content/themes/customizr_alpha/inc/img/abg002.jpg');
+ background-repeat:no-repeat;
+ background-position:center top;
+}
+
+.page-id-37 {
+ background-image:url('http://alpha-institutes.com/awp/wp-content/themes/customizr_alpha/inc/img/abg002.jpg');
+ background-repeat:no-repeat;
+ background-position:center top;
+}
+
+.page-id-41 {
+ background-image:url('http://alpha-institutes.com/awp/wp-content/themes/customizr_alpha/inc/img/abg002.jpg');
+ background-repeat:no-repeat;
+ background-position:center top;
+}
+
+.page-id-43 {
+ background-image:url('http://alpha-institutes.com/awp/wp-content/themes/customizr_alpha/inc/img/abg002.jpg');
+ background-repeat:no-repeat;
+ background-position:center top;
+}
+
+.page-id-45 {
+ background-image:url('http://alpha-institutes.com/awp/wp-content/themes/customizr_alpha/inc/img/abg002.jpg');
+ background-repeat:no-repeat;
+ background-position:center top;
+}
+
+.page-id-355 {
+ background-image:url('http://alpha-institutes.com/awp/wp-content/themes/customizr_alpha/inc/img/abg002.jpg');
+ background-repeat:no-repeat;
+ background-position:center top;
+}
+
+.page-id-372 {
+ background-image:url('http://alpha-institutes.com/awp/wp-content/themes/customizr_alpha/inc/img/abg002.jpg');
+ background-repeat:no-repeat;
+ background-position:center top;
+}
