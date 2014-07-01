@@ -1,7 +1,7 @@
 ---
-layout:fancy
-title:Fancy Team
-permalink:/fancyteam/
+layout : fancy
+title : Fancy Team
+permalink : /fancyteam/
 ---
  
  <div id="content" class="span12 article-container">
