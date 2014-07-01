@@ -3,7 +3,7 @@ layout : fancy
 title : Fancy Team
 permalink : /fancyteam/
 ---
- 
+ <h1>Fancy Team B</h1>
  <div id="content" class="span12 article-container">
                     
                     
