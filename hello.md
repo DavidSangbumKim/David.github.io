@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hello
-permalink: / hm
+permalink: /hm
 ---
 # Hello
 
