@@ -5,5 +5,6 @@ permalink: /hm/
 ---
 # Hello
 
-[Facebook](http://facebook.com)
-[Columbia](http;www.columbia.edu)
+-[Facebook](http://facebook.com)
+
+-[Columbia](http://www.columbia.edu)
