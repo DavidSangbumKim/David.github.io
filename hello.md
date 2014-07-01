@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Hello
-permalink: hello/
+permalink: hi/
 ---
 # Hello
+
+[Facebook](http://facebook.com)
